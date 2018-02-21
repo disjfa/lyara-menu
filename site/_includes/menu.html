@@ -1,0 +1,10 @@
+{% for my_page in site.pages %}
+    {% if my_page.title %}
+        {% if my_page.group == include.group %}
+            <a class="lyara-menu-link{% if my_page.url == page.url %} active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">
+                <i class="lyara-menu-icon fa {{ my_page.icon }}"></i>
+                {{ my_page.title }}
+            </a>
+        {% endif %}
+    {% endif %}
+{% endfor %}

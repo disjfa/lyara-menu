@@ -1,0 +1,18 @@
+---
+layout: page
+title: Home
+group: main
+icon: fa-home
+---
+
+<div class="container">
+    {% for post in site.posts %}
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <small class="card-text text-muted">
+            {{ post.date | date: "%b %-d, %Y" }}
+        </small>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">
+            Read more
+        </a>
+    {% endfor %}
+</div>
