@@ -1,4 +1,4 @@
-# glynn-admin
+# lyara-menu
 
 [![version][version-badge]][package]
 [![MIT License][license-badge]][LICENSE]
@@ -8,12 +8,12 @@
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
 
-A simple and useful admin page interface. An example can be found here: [glynn-admin](https://disjfa.github.io/glynn-admin/).
+A simple and useful admin page interface. An example can be found here: [lyara-menu](https://disjfa.github.io/lyara-menu/).
 
 # Instalation
 
 ```
-npm install glynn-admin
+npm install lyara-menu
 ```
 
 # How to use
@@ -21,7 +21,7 @@ npm install glynn-admin
 Create a base scss file. Add this to the main file.
 
 ```scss
-@import "glynn-admin/scss/glynn-admin";
+@import "lyara-menu/scss/lyara-menu";
 ```
 
 And go and create a super website.
@@ -44,7 +44,7 @@ sass: {
 Copy the files from the dist folder. Located here;
 
 ```css
-glynn-admin/dist/css/glynn-admin.css
+lyara-menu/dist/css/lyara-menu.css
 ```
 
 For the javascript. Just use the default bootstrap, jquery and thether javascript to include in your project.
@@ -59,26 +59,26 @@ For the javascript. Just use the default bootstrap, jquery and thether javascrip
 
 # Issues
 
-Issues can be reported [here](https://github.com/disjfa/glynn-admin/issues)
+Issues can be reported [here](https://github.com/disjfa/lyara-menu/issues)
 
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars0.githubusercontent.com/u/632778?v=3" width="100px;"/><br /><sub>disjfa</sub>](http://www.disjfa.nl)<br />[📖](https://github.com/disjfa/glynn-admin/commits?author=disjfa "Documentation") [💻](https://github.com/disjfa/glynn-admin/commits?author=disjfa "Code") [💬](#question-disjfa "Answering Questions") |
+| [<img src="https://avatars0.githubusercontent.com/u/632778?v=3" width="100px;"/><br /><sub>disjfa</sub>](http://www.disjfa.nl)<br />[📖](https://github.com/disjfa/lyara-menu/commits?author=disjfa "Documentation") [💻](https://github.com/disjfa/lyara-menu/commits?author=disjfa "Code") [💬](#question-disjfa "Answering Questions") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
 
-[package]: https://www.npmjs.com/package/glynn-admin
-[version-badge]: https://img.shields.io/npm/v/glynn-admin.svg?style=flat-square
-[license]: https://github.com/disjfa/glynn-admin/blob/master/LICENSE
-[license-badge]: https://img.shields.io/npm/l/glynn-admin.svg?style=flat-square
-[github-watch-badge]: https://img.shields.io/github/watchers/disjfa/glynn-admin.svg?style=social
-[github-watch]: https://github.com/disjfa/glynn-admin/watchers
-[github-star-badge]: https://img.shields.io/github/stars/disjfa/glynn-admin.svg?style=social
-[github-star]: https://github.com/disjfa/glynn-admin/stargazers
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20glynn-admin!%20-%20Cool%20admin%20template!%20Thanks%20@disjfa%20https://github.com/disjfa/glynn-admin%20%F0%9F%A4%97
-[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/disjfa/glynn-admin.svg?style=social
+[package]: https://www.npmjs.com/package/lyara-menu
+[version-badge]: https://img.shields.io/npm/v/lyara-menu.svg?style=flat-square
+[license]: https://github.com/disjfa/lyara-menu/blob/master/LICENSE
+[license-badge]: https://img.shields.io/npm/l/lyara-menu.svg?style=flat-square
+[github-watch-badge]: https://img.shields.io/github/watchers/disjfa/lyara-menu.svg?style=social
+[github-watch]: https://github.com/disjfa/lyara-menu/watchers
+[github-star-badge]: https://img.shields.io/github/stars/disjfa/lyara-menu.svg?style=social
+[github-star]: https://github.com/disjfa/lyara-menu/stargazers
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20lyara-menu!%20-%20Cool%20admin%20template!%20Thanks%20@disjfa%20https://github.com/disjfa/lyara-menu%20%F0%9F%A4%97
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/disjfa/lyara-menu.svg?style=social
