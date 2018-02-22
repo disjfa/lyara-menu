@@ -1,0 +1,47 @@
+---
+layout: page
+title: Setup
+permalink: /setup/
+group: main
+icon: fa-cog
+order: 2
+---
+
+<h3>
+    First steps.
+</h3>
+<p>
+    Setup your environment and add the scss files as explained on the <a href="{{ "/" | prepend: site.baseurl }}">home</a> page.
+</p>
+
+<h3>
+    Add some html
+</h3>
+<p>
+    And just add a bit of html to your website.
+</p>
+{% highlight html %}<body>
+    <nav class="lyara-menu" role="navigation">
+        <a class="lyara-menu-link" href="...">
+            <i class="lyara-menu-icon fa fa-home"></i>
+            Link title
+        </a>
+        ...
+    </nav>
+    <div class="lyara-container">
+        ... the rest of your code ...
+    </div>
+</body>{% endhighlight %}
+<h3>
+    Change some codes.
+</h3>
+<p>
+    Here is the default _variables.scss file, you can setup your own colors, sizes and settings.
+</p>
+{% highlight scss %}{% include_relative _variables.scss %}{% endhighlight %}
+<h3>
+    And enjoy.
+</h3>
+<p>
+    And just enjoy the rest of your development.
+</p>

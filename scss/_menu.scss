@@ -1,0 +1,70 @@
+.lyara-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $lyara-background;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: $lyara-shadow;
+  z-index: $lyara-zindex;
+  overflow: auto;
+
+  &-link {
+    flex: 1;
+    display: block;
+    text-align: center;
+    font-size: .8rem;
+    padding: $lyara-link-padding;
+    color: $lyara-link-color;
+    &.active {
+      background: $lyara-background-active;
+    }
+    &:active,
+    &:hover {
+      text-decoration: none;
+      color: $lyara-link-color-hover;
+      background: $lyara-background-hover;
+    }
+  }
+  &-icon {
+    font-size: 1.5rem;
+    display: block;
+  }
+
+  @media screen and (min-width: $lyara-breakpoint) {
+    right: auto;
+    top: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: $lyara-width;
+    &-link {
+      flex: 0;
+      text-align: left;
+      font-size: $lyara-font-size-base;
+    }
+    &-icon {
+      font-size: $lyara-font-size-base;
+      display: inline-block;
+    }
+    &-right {
+      right: 0;
+      left: auto;
+    }
+  }
+}
+
+.lyara-container {
+  margin-bottom: 80px;
+
+  @media screen and (min-width: $lyara-breakpoint) {
+    margin-bottom: inherit;
+    margin-left: $lyara-width;
+    width: auto;
+
+    &-left {
+      margin-left: 0;
+      margin-right: $lyara-width;
+    }
+  }
+}

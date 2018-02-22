@@ -13,22 +13,25 @@
   "sass": "scss/lyara-menu.scss",
   "scripts": {
     "build": "encore production && bundle exec jekyll build",
-    "dev": "bundle exec jekyll serve & encore dev --watch",
+    "dev": "encore dev --watch",
+    "jekyll": "bundle exec jekyll serve",
     "add": "all-contributors add",
     "generate": "all-contributors generate",
-    "deploy": "gh-pages -d _site",
-    "favicon": "gulp favicon"
+    "deploy": "gh-pages -d _site"
   },
   "devDependencies": {
     "@symfony/webpack-encore": "^0.17.1",
     "all-contributors-cli": "^4.3.0",
+    "autoprefixer": "^8.0.0",
     "gh-pages": "^1.1.0",
     "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6"
-  },
-  "dependencies": {
-    "jquery": "^3.0.0",
-    "popper.js": "^1.13.0",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
     "workbox-webpack-plugin": "^2.1.2"
-  }
+  },
+  "dependencies": {},
+  "browserslist": [
+    "last 2 versions",
+    "ios >= 8"
+  ]
 }

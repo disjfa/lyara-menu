@@ -1,0 +1,16 @@
+// background
+$lyara-background: #1abc9c !default;
+$lyara-background-active: darken($lyara-background, 10%) !default;
+$lyara-background-hover: darken($lyara-background, 5%) !default;
+
+// text-colors
+$lyara-link-color: darken($lyara-background, 35%) !default;
+$lyara-link-color-hover: darken($lyara-background, 45%) !default;
+$lyara-link-padding: .5rem !default;
+
+// settings
+$lyara-font-size-base: 1rem !default;
+$lyara-zindex: 1060 !default;
+$lyara-breakpoint: 992px !default;
+$lyara-width: 350px !default;
+$lyara-shadow: 0 0 1rem darken($lyara-background, 40%) !default;;

@@ -6,6 +6,7 @@ Encore
   .addEntry('lyara-menu', './js/lyara-menu.js')
   .setManifestKeyPrefix('build/')
   .enableSassLoader()
+  .enablePostCssLoader()
   .enableSourceMaps(!Encore.isProduction())
   .cleanupOutputBeforeBuild()
 ;

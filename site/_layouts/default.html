@@ -2,7 +2,16 @@
 <html>
 {% include head.html %}
 <body>
-{% include sidebar.html %}
+<nav class="lyara-menu" role="navigation">
+    <div class="d-none d-lg-block py-3 px-2">
+        <h3>Lyara menu</h3>
+        <p>
+            This is just some intro text, it is only seen on large devices, we have added some
+            <a href="//getbootstrap.com/docs/4.0/utilities/display/">bootstrap</a> classes here.
+        </p>
+    </div>
+    {% include menu.html group='main' %}
+</nav>
 <div class="lyara-container">
     <div class="container">
         {{ content }}
@@ -20,7 +29,7 @@
                     connect
                     <a href="{{ site.github_url }}">
                         <i class="fa fa-github"></i>
-                        on gitbub
+                        on github
                     </a>
                 </p>
             </div>

@@ -54,8 +54,6 @@ For the javascript. Just use the default bootstrap, jquery and thether javascrip
 [unsplash](https://unsplash.com/)
 [Bootstrap v4](http://getbootstrap.com/)
 [Font Awesome](http://fontawesome.io/)
-[Social Buttons for Bootstrap](https://lipis.github.io/bootstrap-social/)
-[Chart.js](http://www.chartjs.org/)
 
 # Issues
 

@@ -1,18 +1,36 @@
 ---
 layout: page
-title: Home
+title: Lyara menu
 group: main
 icon: fa-home
+order: 1
 ---
-
-<div class="container">
-    {% for post in site.posts %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <small class="card-text text-muted">
-            {{ post.date | date: "%b %-d, %Y" }}
-        </small>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">
-            Read more
+<p class="lead">
+    A simple setup to add a menu on your website, on a desktop on the right and on a mobile device on the
+    bottom.
+</p>
+<h3>Examples</h3>
+<div class="row">
+    <div class="col-md-8">
+        <a href="{{ "/assets/demo-page-dashboard.png" | prepend: site.baseurl }}" class="card my-2">
+            <img src="{{ "/assets/demo-page-dashboard.png" | prepend: site.baseurl }}" alt="Demo page on desktop" class="card-img-top">
+            <div class="card-body">Demo page on desktop.</div>
         </a>
-    {% endfor %}
+    </div>
+    <div class="col-md-4">
+        <a href="{{ "/assets/demo-page-mobile.png" | prepend: site.baseurl }}" class="card my-2">
+            <img src="{{ "/assets/demo-page-mobile.png" | prepend: site.baseurl }}" alt="Demo page on mobile" class="card-img-top">
+            <div class="card-body">Demo page on mobile.</div>
+        </a>
+    </div>
 </div>
+<h3>
+    Instalation
+</h3>
+{% highlight html %}npm install lyara-menu{% endhighlight %}
+
+<h3>
+    Add to your sass
+</h3>
+{% highlight css %}@import "lyara-menu";{% endhighlight %}
+
